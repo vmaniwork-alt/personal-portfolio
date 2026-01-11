@@ -32,15 +32,30 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden bg-[#020617] px-6 pb-4">
-          <ul className="flex flex-col gap-4 text-gray-300">
-            <a href="#home" onClick={() => setOpen(false)}className="hover:text-cyan-400 hover:underline">Home</a>
-            <a href="#about" onClick={() => setOpen(false)}className="hover:text-cyan-400 hover:underline">About</a>
-            <a href="#skills" onClick={() => setOpen(false)}className="hover:text-cyan-400 hover:underline">Skills</a>
-            <a href="#projects" onClick={() => setOpen(false)}className="hover:text-cyan-400 hover:underline">Projects</a>
-            <a href="#contact" onClick={() => setOpen(false)}className="hover:text-cyan-400 hover:underline">Contact</a>
-          </ul>
-        </div>
+       <div className="md:hidden absolute top-full left-0 w-full bg-[#020617]/95 backdrop-blur-lg border-t border-gray-800">
+    <ul className="flex flex-col py-6 px-6 space-y-4 text-gray-200 text-lg font-medium">
+      
+      {[
+        { label: "Home", link: "#home" },
+        { label: "About", link: "#about" },
+        { label: "Skills", link: "#skills" },
+        { label: "Projects", link: "#projects" },
+        { label: "Contact", link: "#contact" },
+      ].map((item) => (
+        <li key={item.label}>
+          <a
+            href={item.link}
+            onClick={() => setOpen(false)}
+            className="block rounded-xl px-4 py-3 transition-all duration-300
+                       hover:bg-cyan-500/10 hover:text-cyan-400"
+          >
+            {item.label}
+          </a>
+        </li>
+      ))}
+
+    </ul>
+  </div>
       )}
     </nav>
   );
