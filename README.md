@@ -1,20 +1,54 @@
-<<<<<<< HEAD
-# personal-portfolio
-=======
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Welcome to my personal portfolio! 👋**
 
-Currently, two official plugins are available:
+This is a modern, responsive personal portfolio website built with **React, Vite, and Tailwind CSS**. It showcases my skills, projects, social links, and provides visitors with an easy way to connect or download my resume.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 https://personal-portfolio-zeta-seven-38.vercel.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> ae8fab2 (upload files)
+## 💻 Built With
+
+- **React** — UI Library  
+- **Vite** — Fast development tooling  
+- **Tailwind CSS** — Utility‑first CSS framework  
+- **React Icons** — Icons for UI  
+- **AOS** — Scroll animations
+
+---
+
+## 📂 Features
+
+✔ Fully responsive design  
+✔ Hero section with animated text  
+✔ Skills, Projects, Contact sections  
+✔ Smooth scrolling navigation  
+✔ Social links with icons  
+✔ Downloadable Resume button  
+
+---
+
+## 💼 Sections Included
+
+📌 **Home / Hero**  
+📌 **About Me**  
+📌 **Skills**  
+📌 **Projects**  
+📌 **Contact**  
+
+Each section smoothly scrolls into view when the corresponding navbar link is clicked.
+
+---
+
+## 🔧 Getting Started
+
+To run this project locally:
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/vmaniwork-alt/personal-portfolio.git
